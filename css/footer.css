@@ -1,0 +1,190 @@
+footer {
+    width: 100%;
+    background-color: #292929;
+
+}
+
+footer div.footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    position: relative;
+}
+
+.footer-contact,
+.footer-socials {
+    height: 120px;
+}
+
+.footer-contact {
+    flex-basis: 15%;
+    padding: 10px 20px;
+    border-right: 1px double red;
+}
+
+.name p,
+.number p {
+    color: white;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+}
+
+.name p {
+    width: 100%;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.number p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.line {
+    border: 1px solid red;
+}
+
+.footer-socials a {
+    display: inline-block;
+    line-height: 120px;
+}
+
+.footer-socials a i {
+    color: black;
+    font-size: 40px;
+    margin: 10px;
+}
+
+
+
+.footer-socials i.icon-facebook:hover {
+    color: #4267b2;
+}
+
+.footer-socials i.icon-twitter:hover {
+    color: #1da1f2;
+}
+
+.footer-socials i.icon-instagram:hover {
+    color: white;
+}
+
+.footer-socials i.icon-linkedin-squared:hover {
+    color: #0077b5;
+}
+
+
+footer div.copyright {
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    color: white;
+    font-size: 0;
+}
+
+
+footer div.copyright p {
+    /* display: inline-block; */
+    /* width: 50%; */
+    padding: 20px 0px;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer div.copyright p span {
+    padding-left: 5px;
+}
+
+footer div.copyright p:nth-child(1) {
+    padding-bottom: 0;
+}
+
+.motto {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    display: flex;
+    /* flex-direction: row; */
+    width: 300px;
+}
+
+.slogan {
+    color: white;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.heart {
+    width: 50px;
+    height: 40px;
+    animation: heartbeat 1.5s infinite;
+    margin: 0 auto
+}
+
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 25px;
+    top: 0;
+    width: 25px;
+    height: 40px;
+    background: red;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+.heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+
+
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(.45);
+    }
+
+    20% {
+        transform: scale(.6);
+    }
+
+    40% {
+        transform: scale(.45);
+    }
+
+    60% {
+        transform: scale(.6);
+    }
+
+    80% {
+        transform: scale(.45);
+    }
+
+    100% {
+        transform: scale(.45);
+    }
+}

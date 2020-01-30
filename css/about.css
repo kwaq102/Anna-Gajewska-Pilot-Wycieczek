@@ -1,0 +1,98 @@
+section.about {
+    height: 100vh;
+}
+
+section.about,
+section.offer,
+section.gallery,
+section.contact {
+    display: none;
+}
+
+section.about.show,
+section.offer.show,
+section.gallery.show,
+section.contact.show {
+    display: block;
+}
+
+section h1 {
+    width: 100%;
+    background-color: #E6E6E6;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: calc((100vw - 1200px) / 2);
+    text-transform: uppercase;
+    border-bottom: 1px solid #808080;
+    color: #404040;
+    letter-spacing: 2px;
+}
+
+.about-menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #404040;
+}
+
+.about-menu a {
+    flex-basis: 12%;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 30px;
+    padding: 5px 0;
+    text-decoration: none;
+    color: rgba(255, 255, 255, .9);
+    letter-spacing: 1px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+.about-menu a.active {
+    border-bottom: 2px solid red;
+}
+
+.about-menu a:hover {
+    border-bottom: 2px solid red;
+}
+
+div.about div {
+    width: 50%;
+}
+
+div.about,
+div.experience,
+div.passion {
+    display: none;
+}
+
+div.about.active,
+div.experience.active,
+div.passion.active {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 20px 1px;
+
+}
+
+div.experience.active {
+    flex-direction: row-reverse;
+}
+
+div.about div,
+div.experience div,
+div.passion div {
+    width: 50%;
+}
+
+section.about p,
+section.experience p,
+section.passion p {
+    font-size: 16px;
+    padding: 10px 30px;
+}

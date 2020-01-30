@@ -1,0 +1,122 @@
+div.contact {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto 50px;
+}
+
+div.contact div,
+div.contact div.socials {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+div.address,
+div.phone {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.address div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 100%;
+}
+
+div.address h3,
+div.phone h3 {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-bottom: 1px solid red;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+div.address div div.correspondence {
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+}
+
+div.address div div.correspondence p {
+    font-size: 18px;
+    padding: 3px;
+}
+
+div.phone div {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    width: 100%;
+    padding: 10px 5px 0 5px;
+}
+
+div.phone div:nth-of-type(2) {
+    padding-top: 0;
+}
+
+div.phone div p {
+    width: 220%;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.contact .icon-home {
+    font-size: 60px;
+    align-self: center;
+}
+
+.contact i {
+    font-size: 40px;
+}
+
+div.socials {
+    justify-content: center;
+}
+
+div.socials a i {
+    display: block;
+    font-size: 50px;
+    padding: 10px;
+    line-height: 50px;
+}
+
+div.socials i.icon-facebook {
+    color: #4267b2;
+}
+
+div.socials i.icon-facebook:hover {
+    background-color: #4267b2;
+    color: white;
+}
+
+div.socials i.icon-instagram {
+    color: black;
+}
+
+div.socials i.icon-instagram:hover {
+    background-color: black;
+    color: white;
+}
+
+div.socials i.icon-twitter {
+    color: #1da1f2;
+}
+
+div.socials i.icon-twitter:hover {
+    background-color: #1da1f2;
+    color: white;
+}
+
+div.socials i.icon-linkedin-squared {
+    color: #0077b5;
+}
+
+div.socials i.icon-linkedin-squared:hover {
+    background-color: #0077b5;
+    color: white;
+}
