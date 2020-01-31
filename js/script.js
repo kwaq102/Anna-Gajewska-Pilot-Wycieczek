@@ -45,7 +45,6 @@ contact.addEventListener('click', function () {
     sectionOffer.classList.remove('show');
     sectionGallery.classList.remove('show');
     sectionContact.classList.add('show');
-    console.log('sddd')
 })
 
 // sekcja o mnie

@@ -9,3 +9,11 @@ $doc.on('scroll', function () {
         'filter': 'grayscale(' + 2 * scrollPosition / headerHeight + ')'
     })
 })
+
+$('nav ul li a').on('click', function () {
+    const goToSection = "." + $(this).attr('id');
+
+    $('body, html').animate({
+        scrollTop: $(goToSection).offset().top
+    })
+})
