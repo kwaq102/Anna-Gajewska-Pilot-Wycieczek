@@ -1,0 +1,27 @@
+    <nav>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li>
+                <a id="about">O mnie</a>
+                <!-- <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul> -->
+            </li>
+            <li class="list">
+                <a id="offer">oferta</a>
+                <ul>
+                    <ol><a>Hiszpania</a></ol>
+                    <ol><a>Francja</a></ol>
+                    <ol><a>Włochy</a></ol>
+                    <ol><a>Portugalia</a></ol>
+                    <ol><a>Inne</a></ol>
+                </ul>
+            </li>
+            <li class="photo"><a id="gallery">galeria</a></li>
+            <li class="show-contact"><a id="contact">Kontakt</a></li>
+        </ul>
+    </nav>
+

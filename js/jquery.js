@@ -10,10 +10,10 @@ $doc.on('scroll', function () {
     })
 })
 
-$('nav ul li a').on('click', function () {
-    const goToSection = "." + $(this).attr('id');
+// $('nav ul li a').on('click', function () {
+//     const goToSection = "." + $(this).attr('id');
 
-    $('body, html').animate({
-        scrollTop: $(goToSection).offset().top
-    })
-})
+//     $('body, html').animate({
+//         scrollTop: $(goToSection).offset().top
+//     })
+// })
